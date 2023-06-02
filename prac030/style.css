@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#link{
+    color: brown;
+}
+
+/* div{
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    border: 5px solid purple;
+    float: left;
+}
+
+#alternate{
+    box-sizing: border-box;
+} */
+
+/* p {
+    line-height: 2;
+} */
+
+#word{
+    border: 2px solid teal;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}

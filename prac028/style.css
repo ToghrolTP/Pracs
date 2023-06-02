@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+#main-content{
+    width: 70%;
+    margin: 50px 0 0 50px;
+}
+
+#main-content-header{
+    color: #414141;
+    margin: 20px 0;
+}
+
+img[src="assets/mountain.jpg"]{
+    width: 100%;
+    border-radius: 10px;
+}

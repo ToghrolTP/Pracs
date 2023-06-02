@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prac18</title>
+</head>
+
+<body>
+    <h1>Your course landing page</h1>
+    <form action="/clp">
+        <div>
+            <!-- Course Title -->
+            <label for="submit-course-title">Course title:</label>
+            <input id="submit-course-title" type="text" name="course-title" required>
+        </div>
+        <div>
+            <!-- Text Area -->
+            <label for="submit-course-description">Course description</label>
+            <br>
+            <textarea name="course-description" id="submit-course-description" cols="30" rows="10"></textarea>
+        </div>
+        <!-- Skill Level -->
+        <div>
+            <label for="submit-skill-level">Skill level</label>
+            <select name="skill-level" id="submit-skill-level">
+                <option value="B">Beginner</option>
+                <option value="I">Intermidiate</option>
+                <option value="A">Advanced</option>
+            </select>
+        </div>
+        <div>
+            <!-- Check Box -->
+            <label for="submit-ready-to-publish-checkbox">Ready to publish?</label>
+            <input id="submit-ready-to-publish-checkbox" type="checkbox" name="checkbox">
+        </div>
+        <!-- Button -->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
